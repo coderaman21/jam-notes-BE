@@ -1474,3 +1474,288 @@
 2023-06-03 22:54:32,630  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/1/ HTTP/1.1" 404 23
 2023-06-03 22:54:32,641  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/1/
 2023-06-03 22:54:32,643  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/1/ HTTP/1.1" 404 23
+2023-06-04 16:12:30,560  ERROR E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Internal Server Error: /api/note/2
+Traceback (most recent call last):
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to 127.0.0.1:8000/api/note/2/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2023-06-04 16:12:30,613  ERROR E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "PUT /api/note/2 HTTP/1.1" 500 73768
+2023-06-04 16:12:30,657  ERROR E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Internal Server Error: /api/note/2
+Traceback (most recent call last):
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to 127.0.0.1:8000/api/note/2/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2023-06-04 16:12:30,694  ERROR E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "PUT /api/note/2 HTTP/1.1" 500 73768
+2023-06-04 16:12:30,739  ERROR E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Internal Server Error: /api/note/2
+Traceback (most recent call last):
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to 127.0.0.1:8000/api/note/2/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2023-06-04 16:12:30,747  ERROR E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "PUT /api/note/2 HTTP/1.1" 500 73768
+2023-06-04 16:12:31,118  ERROR E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Internal Server Error: /api/note/2
+Traceback (most recent call last):
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to 127.0.0.1:8000/api/note/2/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2023-06-04 16:12:31,126  ERROR E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "PUT /api/note/2 HTTP/1.1" 500 73768
+2023-06-04 16:12:31,456  ERROR E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Internal Server Error: /api/note/2
+Traceback (most recent call last):
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to 127.0.0.1:8000/api/note/2/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2023-06-04 16:12:31,465  ERROR E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "PUT /api/note/2 HTTP/1.1" 500 73768
+2023-06-04 16:12:31,651  ERROR E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Internal Server Error: /api/note/2
+Traceback (most recent call last):
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to 127.0.0.1:8000/api/note/2/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2023-06-04 16:12:31,659  ERROR E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "PUT /api/note/2 HTTP/1.1" 500 73768
+2023-06-04 16:12:32,179  ERROR E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Internal Server Error: /api/note/2
+Traceback (most recent call last):
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to 127.0.0.1:8000/api/note/2/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2023-06-04 16:12:32,187  ERROR E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "PUT /api/note/2 HTTP/1.1" 500 73768
+2023-06-04 16:12:33,115  ERROR E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Internal Server Error: /api/note/2
+Traceback (most recent call last):
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to 127.0.0.1:8000/api/note/2/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2023-06-04 16:12:33,127  ERROR E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "PUT /api/note/2 HTTP/1.1" 500 73768
+2023-06-04 16:12:33,335  ERROR E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Internal Server Error: /api/note/2
+Traceback (most recent call last):
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to 127.0.0.1:8000/api/note/2/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2023-06-04 16:12:33,343  ERROR E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "PUT /api/note/2 HTTP/1.1" 500 73768
+2023-06-04 16:12:55,004  ERROR E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Internal Server Error: /api/note/2
+Traceback (most recent call last):
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to 127.0.0.1:8000/api/note/2/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2023-06-04 16:12:55,019  ERROR E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "PUT /api/note/2 HTTP/1.1" 500 73768
+2023-06-04 16:58:50,191  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/5/
+2023-06-04 16:58:50,205  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/5/ HTTP/1.1" 404 10710
+2023-06-04 16:58:50,606  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /favicon.ico
+2023-06-04 16:58:50,609  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /favicon.ico HTTP/1.1" 404 2445
+2023-06-04 17:09:48,293  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/7/
+2023-06-04 17:09:48,312  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "PATCH /api/note/7/ HTTP/1.1" 404 23
+2023-06-04 17:56:01,493  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 17:56:01,512  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 17:56:01,519  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 17:56:01,521  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 17:56:08,071  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 17:56:08,073  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "PATCH /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 17:56:11,400  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 17:56:11,404  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 17:56:11,413  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 17:56:11,416  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:10:35,637  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:10:35,662  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:10:35,670  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:10:35,671  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:16:19,541  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:16:19,544  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:16:19,553  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:16:19,554  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:16:21,510  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:16:21,512  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:16:21,521  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:16:21,523  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:16:26,238  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:16:26,240  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:16:26,247  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:16:26,250  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:16:27,784  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:16:27,786  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:16:27,794  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:16:27,796  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:16:33,017  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:16:33,019  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:16:33,028  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:16:33,032  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:16:35,111  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:16:35,113  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:16:35,122  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:16:35,125  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:16:36,402  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:16:36,404  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:16:36,412  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:16:36,414  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:16:37,896  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:16:37,900  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:16:37,909  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:16:37,911  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:16:38,904  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:16:38,905  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:16:38,914  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:16:38,917  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:16:58,058  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:16:58,060  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:16:58,071  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:16:58,073  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:17:00,548  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:17:00,551  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:17:00,559  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:17:00,561  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:17:10,500  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:17:10,506  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:17:10,520  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:17:10,521  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:17:18,901  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:17:18,902  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:17:18,910  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:17:18,912  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:17:20,509  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:17:20,510  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:17:20,524  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:17:20,526  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:17:30,518  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:17:30,519  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:17:30,528  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:17:30,529  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:24:34,871  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:24:34,873  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:24:48,059  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:24:48,065  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "PATCH /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:24:50,866  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:24:50,868  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:24:50,875  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:24:50,876  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:24:52,374  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:24:52,375  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "PATCH /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:24:54,874  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:24:54,910  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:26:00,174  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:26:00,176  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:26:12,295  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:26:12,305  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "PATCH /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:26:36,796  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:26:36,798  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:26:36,805  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:26:36,807  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:26:50,040  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:26:50,041  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:27:31,010  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:27:31,013  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:27:38,670  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:27:38,672  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:30:14,036  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:30:14,039  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:30:27,422  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:30:27,424  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "PATCH /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:31:08,652  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:31:08,659  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:31:08,669  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:31:08,672  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:32:23,046  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:32:23,049  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:32:28,870  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:32:28,873  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-04 18:32:28,886  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/add/
+2023-06-04 18:32:28,887  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/add/ HTTP/1.1" 404 23
+2023-06-09 22:54:36,045  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Method Not Allowed: /auth/login/
+2023-06-09 22:54:36,347  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /auth/login/ HTTP/1.1" 405 40
+2023-06-09 22:54:43,747  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Unauthorized: /auth/login/
+2023-06-09 22:54:43,749  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "POST /auth/login/ HTTP/1.1" 401 63
+2023-06-09 22:55:04,460  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /favicon.ico
+2023-06-09 22:55:04,461  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /favicon.ico HTTP/1.1" 404 2446
+2023-06-09 23:20:16,986  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /auth/signup/
+2023-06-09 23:20:16,989  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /auth/signup/ HTTP/1.1" 404 2886
+2023-06-09 23:20:37,723  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Bad Request: /auth/register/
+2023-06-09 23:20:37,726  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "POST /auth/register/ HTTP/1.1" 400 58
+2023-06-11 16:03:52,940  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/22/
+2023-06-11 16:04:14,976  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /api/note/21/
+2023-06-11 16:04:14,978  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /api/note/21/ HTTP/1.1" 404 10804
+2023-06-11 16:04:16,270  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\utils\log.py ln. no. 241 Not Found: /favicon.ico
+2023-06-11 16:04:16,273  WARNING E:\programming\python\Django\To Do\ToDoApp\venv\Lib\site-packages\django\core\servers\basehttp.py ln. no. 212 "GET /favicon.ico HTTP/1.1" 404 2446
