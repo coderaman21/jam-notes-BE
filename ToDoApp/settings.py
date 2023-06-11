@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-6kq4#&^9v8=au#$tda-b3q=l88q^@0@)vi!gge=b-p^3szi&6j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','.vercel.app']
 
 AUTH_USER_MODEL = 'usermgmt.User'
 # Application definition
@@ -79,7 +79,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "ToDoApp.wsgi.application"
+WSGI_APPLICATION = "ToDoApp.wsgi.app"
 
 
 # Database
