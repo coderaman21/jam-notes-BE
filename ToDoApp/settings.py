@@ -173,6 +173,10 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
 ]
 
+LOG_FOLDER = os.path.join(BASE_DIR , 'log_files')
+
+if not os.path.exists(LOG_FOLDER):
+    os.makedirs(LOG_FOLDER)
 
 
 LOGGING = {  
