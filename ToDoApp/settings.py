@@ -90,14 +90,14 @@ DATABASES = {
     #     "ENGINE": "django.db.backends.sqlite3",
     #     "NAME": BASE_DIR / "db.sqlite3",
     # }
-    'default': {
-       'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'verceldb',
-        'USER': 'default',
-        'PASSWORD': 'TBolRrSZU9W8',
-        'HOST': 'ep-yellow-bush-353536-pooler.ap-southeast-1.postgres.vercel-storage.com',
-        'PORT': '5432',
-    }
+    # 'default': {
+    #    'ENGINE': 'django.db.backends.postgresql',
+    #     'NAME': 'verceldb',
+    #     'USER': 'default',
+    #     'PASSWORD': 'TBolRrSZU9W8',
+    #     'HOST': 'ep-yellow-bush-353536-pooler.ap-southeast-1.postgres.vercel-storage.com',
+    #     'PORT': '5432',
+    # }
 }
 
 
@@ -171,53 +171,54 @@ SIMPLE_JWT = {
 
 CORS_ALLOWED_ORIGINS = [ 
     "http://localhost:3000",
+    'https://jam-notes.netlify.app'
 ]
 
-LOG_FOLDER = os.path.join(BASE_DIR , 'log_files')
+# LOG_FOLDER = os.path.join(BASE_DIR , 'log_files')
 
-if not os.path.exists(LOG_FOLDER):
-    os.makedirs(LOG_FOLDER)
+# if not os.path.exists(LOG_FOLDER):
+#     os.makedirs(LOG_FOLDER)
 
 
-LOGGING = {  
-    'version': 1,  
-    # Version of logging  
-    'disable_existing_loggers': False,  
-    'formatters': {
-        'default': {
+# LOGGING = {  
+#     'version': 1,  
+#     # Version of logging  
+#     'disable_existing_loggers': False,  
+#     'formatters': {
+#         'default': {
           
-            'format': '%(asctime)s  %(levelname)s %(pathname)s ln. no. %(lineno)d %(message)s',
-        }
-    },
-    # Handlers ####
-    'handlers': {  
-        'warning_file': {  
-            'level': 'WARNING',  
-            'class': 'logging.FileHandler',  
-            'filename': f'log_files/warning.log',
-             'formatter': 'default'  
-        },
-        'info_file': {  
-            'level': 'INFO',  
-            'class': 'logging.FileHandler',  
-            'filename': f'log_files/info.log',
-             'formatter': 'default'  
-        },
-        'console': {
-            'level': 'INFO',
-            'class': 'logging.StreamHandler',
-             'formatter': 'default'
-        },
-    },  
-    # Loggers ####  
-    'loggers': {  
-        'django': {  
-            'handlers': ['warning_file','info_file','console'],  
-            'level': 'DEBUG',  
-            'propagate': True,  
-            'level': os.getenv('DJANGO_LOG_LEVEL', 'DEBUG')  
-        },  
-    },  
-} 
-import logging 
-logger = logging.getLogger('django')
+#             'format': '%(asctime)s  %(levelname)s %(pathname)s ln. no. %(lineno)d %(message)s',
+#         }
+#     },
+#     # Handlers ####
+#     'handlers': {  
+#         'warning_file': {  
+#             'level': 'WARNING',  
+#             'class': 'logging.FileHandler',  
+#             'filename': f'log_files/warning.log',
+#              'formatter': 'default'  
+#         },
+#         'info_file': {  
+#             'level': 'INFO',  
+#             'class': 'logging.FileHandler',  
+#             'filename': f'log_files/info.log',
+#              'formatter': 'default'  
+#         },
+#         'console': {
+#             'level': 'INFO',
+#             'class': 'logging.StreamHandler',
+#              'formatter': 'default'
+#         },
+#     },  
+#     # Loggers ####  
+#     'loggers': {  
+#         'django': {  
+#             'handlers': ['warning_file','info_file','console'],  
+#             'level': 'DEBUG',  
+#             'propagate': True,  
+#             'level': os.getenv('DJANGO_LOG_LEVEL', 'DEBUG')  
+#         },  
+#     },  
+# } 
+# import logging 
+# logger = logging.getLogger('django')
