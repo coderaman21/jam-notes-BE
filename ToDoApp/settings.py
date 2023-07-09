@@ -87,12 +87,13 @@ WSGI_APPLICATION = "ToDoApp.wsgi.app"
 
 DATABASES = {
     
+
     'default': {
-       'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'vevfeydx',
-        'USER': 'vevfeydx',
-        'PASSWORD': 'Fek47JAWph7LakVC7aHzRsTw-UZu8FU5',
-        'HOST': 'tiny.db.elephantsql.com',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'neondb',
+        'USER': 'amans197555',
+        'PASSWORD': 'G9Afo8dwzOSi',
+        'HOST': 'ep-dry-boat-057781.ap-southeast-1.aws.neon.tech',
         'PORT': '5432',
     }
 }
@@ -153,10 +154,10 @@ REST_FRAMEWORK = {
         
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
-    # 'DEFAULT_PERMISSION_CLASSES': (
+    'DEFAULT_PERMISSION_CLASSES': (
   
-    #     'rest_framework.permissions.IsAuthenticated',
-    # ),
+        'rest_framework.permissions.IsAuthenticated',
+    ),
     # 'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     # 'PAGE_SIZE': 10
 }
@@ -171,51 +172,3 @@ CORS_ALLOWED_ORIGINS = [
     'https://jam-notes.netlify.app'
 ]
 
-# LOG_FOLDER = os.path.join(BASE_DIR , 'log_files')
-
-# if not os.path.exists(LOG_FOLDER):
-#     os.makedirs(LOG_FOLDER)
-
-
-# LOGGING = {  
-#     'version': 1,  
-#     # Version of logging  
-#     'disable_existing_loggers': False,  
-#     'formatters': {
-#         'default': {
-          
-#             'format': '%(asctime)s  %(levelname)s %(pathname)s ln. no. %(lineno)d %(message)s',
-#         }
-#     },
-#     # Handlers ####
-#     'handlers': {  
-#         'warning_file': {  
-#             'level': 'WARNING',  
-#             'class': 'logging.FileHandler',  
-#             'filename': f'log_files/warning.log',
-#              'formatter': 'default'  
-#         },
-#         'info_file': {  
-#             'level': 'INFO',  
-#             'class': 'logging.FileHandler',  
-#             'filename': f'log_files/info.log',
-#              'formatter': 'default'  
-#         },
-#         'console': {
-#             'level': 'INFO',
-#             'class': 'logging.StreamHandler',
-#              'formatter': 'default'
-#         },
-#     },  
-#     # Loggers ####  
-#     'loggers': {  
-#         'django': {  
-#             'handlers': ['warning_file','info_file','console'],  
-#             'level': 'DEBUG',  
-#             'propagate': True,  
-#             'level': os.getenv('DJANGO_LOG_LEVEL', 'DEBUG')  
-#         },  
-#     },  
-# } 
-# import logging 
-# logger = logging.getLogger('django')

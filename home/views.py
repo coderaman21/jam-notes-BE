@@ -9,14 +9,16 @@ class NoteViewSet(viewsets.ModelViewSet):
 
     def get_queryset(self):
         user = self.request.user
-        return Note.objects.filter(user_id = '1').order_by('-updated_at')
+        return Note.objects.filter(user = user).order_by('-updated_at')
 
     def create(self, request, *args, **kwargs):
-        request.data['user'] = '1'
+        user = request.user
+        request.data['user'] = user.id
         return super().create(request, *args, **kwargs)
 
     def update(self, request, *args, **kwargs):
-        request.data['user'] = '1'
+        user = request.user
+        request.data['user'] = user.id
         return super().update(request, *args, **kwargs)
     
     def destroy(self, request, *args, **kwargs):
